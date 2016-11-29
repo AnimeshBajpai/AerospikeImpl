@@ -47,7 +47,6 @@ public class AerospikeManager {
         }
         return null;
     }
-
     public <T> void putValueInAero(String key, Map<String, T> binMap, AerospikeClientConfigParams clientParams
            ) {
         ServiceCAO cao = new ServiceCAO(params);
